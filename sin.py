@@ -45,7 +45,7 @@ class Example(Scene):
             },  # координаты выделяются (длинными поперечными линиями)
             tips=False
         )
-        lin_zoom = axes.plot(lambda x: x, color=GREEN, stroke_opacity=0.2)
+        lin_zoom = axes_zoom.plot(lambda x: x, color=GREEN, stroke_opacity=0.2)
         sin_zoom=axes_zoom.plot(lambda x: np.sin(x), color=BLUE, stroke_opacity=0.2)
         text= Text("sin(x) ~x при x->0", font_size=48)
         text.to_edge(DOWN)#добавляем текст вниз
