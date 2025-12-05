@@ -6,7 +6,7 @@ class Example(Scene):
         #axes - оси
         axes= Axes (
             x_range=[-6, 6, 1],#диапазон для x с шагом 1
-            y_range=[-2, 2, 1],
+            y_range=[-6, 6, 1],
             x_length=14,
             y_length=10,
             axis_config={"color": GREEN},#цвет системы координат
@@ -31,7 +31,7 @@ class Example(Scene):
 
         self.play(Create(plot))
         self.play(Create(labels))
-        self.wait(6)
+        self.wait(2)
 
         axes_zoom = Axes(
             x_range=[-2, 2, 0.2],  # диапазон для x с шагом 0.2
