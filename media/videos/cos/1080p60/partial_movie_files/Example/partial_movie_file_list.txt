@@ -1,6 +1,7 @@
 # This file is used internally by FFMPEG.
-file 'file:C:/Users/Natalya/Desktop/manim/media/videos/cos/1080p60/partial_movie_files/Example/2257293077_1385810589_223132457.mp4'
-file 'file:C:/Users/Natalya/Desktop/manim/media/videos/cos/1080p60/partial_movie_files/Example/2135761390_724886733_4008103317.mp4'
-file 'file:C:/Users/Natalya/Desktop/manim/media/videos/cos/1080p60/partial_movie_files/Example/2135761390_206138768_3479716646.mp4'
-file 'file:C:/Users/Natalya/Desktop/manim/media/videos/cos/1080p60/partial_movie_files/Example/2135761390_155724302_3176932912.mp4'
-file 'file:C:/Users/Natalya/Desktop/manim/media/videos/cos/1080p60/partial_movie_files/Example/2135761390_1038707267_3092010204.mp4'
+file 'file:C:/Users/Natalya/Desktop/vvs_project/project_vvs/media/videos/cos/1080p60/partial_movie_files/Example/2257293077_800959651_223132457.mp4'
+file 'file:C:/Users/Natalya/Desktop/vvs_project/project_vvs/media/videos/cos/1080p60/partial_movie_files/Example/2135761390_724886733_3441312282.mp4'
+file 'file:C:/Users/Natalya/Desktop/vvs_project/project_vvs/media/videos/cos/1080p60/partial_movie_files/Example/2135761390_2682201423_4137129564.mp4'
+file 'file:C:/Users/Natalya/Desktop/vvs_project/project_vvs/media/videos/cos/1080p60/partial_movie_files/Example/2135761390_206138768_2980158674.mp4'
+file 'file:C:/Users/Natalya/Desktop/vvs_project/project_vvs/media/videos/cos/1080p60/partial_movie_files/Example/2135761390_4185718552_1536252170.mp4'
+file 'file:C:/Users/Natalya/Desktop/vvs_project/project_vvs/media/videos/cos/1080p60/partial_movie_files/Example/2135761390_1038707267_590181169.mp4'
