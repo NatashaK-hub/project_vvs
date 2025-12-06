@@ -17,7 +17,7 @@ class Example(Scene):
             tips=False
         )#определим метки по x и y:
         axes_labels=axes.get_axis_labels()
-        #np.sin(x)- ф-ия из библиотеки numpy
+        #np.cos(x)- ф-ия из библиотеки numpy
         cos_graph=axes.plot(lambda x: 1-np.cos(x), color=BLUE, stroke_opacity=0.2)
         lin_graph=axes.plot(lambda x: x**2/2, color=GREEN, stroke_opacity=0.2)
 
@@ -33,7 +33,7 @@ class Example(Scene):
         self.play(Create(labels))
         self.wait(4)
 
-        #переход к новым осям (смена масштаба)
+        #создаем новые оси для трансформации
         axes_zoom = Axes(
             x_range=[-2, 2, 0.3],  # диапазон для x с шагом 0.2
             y_range=[-2, 2, 0.3],

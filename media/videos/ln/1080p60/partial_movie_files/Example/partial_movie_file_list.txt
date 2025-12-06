@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Natalya/Desktop/vvs_project/project_vvs/media/videos/ln/1080p60/partial_movie_files/Example/2257293077_758066540_223132457.mp4'
+file 'file:C:/Users/Natalya/Desktop/vvs_project/project_vvs/media/videos/ln/1080p60/partial_movie_files/Example/2135761390_1628949973_1728029239.mp4'
+file 'file:C:/Users/Natalya/Desktop/vvs_project/project_vvs/media/videos/ln/1080p60/partial_movie_files/Example/2135761390_1210136875_2144354197.mp4'
+file 'file:C:/Users/Natalya/Desktop/vvs_project/project_vvs/media/videos/ln/1080p60/partial_movie_files/Example/2135761390_206138768_4257863799.mp4'
+file 'file:C:/Users/Natalya/Desktop/vvs_project/project_vvs/media/videos/ln/1080p60/partial_movie_files/Example/2135761390_13336545_1536252170.mp4'
+file 'file:C:/Users/Natalya/Desktop/vvs_project/project_vvs/media/videos/ln/1080p60/partial_movie_files/Example/2135761390_1038707267_1482913996.mp4'
