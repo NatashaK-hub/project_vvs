@@ -29,6 +29,7 @@ class Example(Scene):
         #VGroup - создание виртуальной группы объектов;
         labels=VGroup(axes_labels, sin_label, lin_label)
 
+
         #прямоугольник для зоны приближения
         rect = Rectangle(
             color=YELLOW,
@@ -36,6 +37,7 @@ class Example(Scene):
             height=1.5,  # высота
             width=2
         )
+
         rect.move_to(axes.c2p(0, 0))  # c2p- преобразует в координаты графика
 
         self.play(Create(plot))

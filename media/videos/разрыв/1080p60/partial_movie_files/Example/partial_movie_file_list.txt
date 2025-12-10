@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Natalya/Desktop/vvs_project/project_vvs/media/videos/разрыв/1080p60/partial_movie_files/Example/1277069911_2434589475_223132457.mp4'
+file 'file:C:/Users/Natalya/Desktop/vvs_project/project_vvs/media/videos/разрыв/1080p60/partial_movie_files/Example/209063967_164903315_905669486.mp4'
+file 'file:C:/Users/Natalya/Desktop/vvs_project/project_vvs/media/videos/разрыв/1080p60/partial_movie_files/Example/209063967_2844360058_4099895222.mp4'
+file 'file:C:/Users/Natalya/Desktop/vvs_project/project_vvs/media/videos/разрыв/1080p60/partial_movie_files/Example/209063967_1450827048_3441902852.mp4'
+file 'file:C:/Users/Natalya/Desktop/vvs_project/project_vvs/media/videos/разрыв/1080p60/partial_movie_files/Example/209063967_2844360058_1614702584.mp4'
+file 'file:C:/Users/Natalya/Desktop/vvs_project/project_vvs/media/videos/разрыв/1080p60/partial_movie_files/Example/209063967_1751741425_1938889532.mp4'
+file 'file:C:/Users/Natalya/Desktop/vvs_project/project_vvs/media/videos/разрыв/1080p60/partial_movie_files/Example/209063967_1038707267_3798903949.mp4'
