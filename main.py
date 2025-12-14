@@ -342,6 +342,16 @@ class CosinusPage(QWidget):
         # Автозапуск
         self.player.play()
 
+        back_btn = QPushButton("← Назад к таблице эквивалентных")
+        back_btn.clicked.connect(self.go_back)
+        layout.addWidget(back_btn)
+
+        self.setLayout(layout)
+
+    def go_back(self):
+        page = SamePage(self.main_window)
+        self.main_window.set_page(page, "Таблица эквивалентных")
+
 
 class LnPage(QWidget):
     def __init__(self, main_window):
@@ -363,6 +373,16 @@ class LnPage(QWidget):
         # Автозапуск
         self.player.play()
 
+        back_btn = QPushButton("← Назад к таблице эквивалентных")
+        back_btn.clicked.connect(self.go_back)
+        layout.addWidget(back_btn)
+
+        self.setLayout(layout)
+
+    def go_back(self):
+        page = SamePage(self.main_window)
+        self.main_window.set_page(page, "Таблица эквивалентных")
+
 
 class ExpPage(QWidget):
     def __init__(self, main_window):
@@ -383,6 +403,16 @@ class ExpPage(QWidget):
 
         # Автозапуск
         self.player.play()
+
+        back_btn = QPushButton("← Назад к таблице эквивалентных")
+        back_btn.clicked.connect(self.go_back)
+        layout.addWidget(back_btn)
+
+        self.setLayout(layout)
+
+    def go_back(self):
+        page = SamePage(self.main_window)
+        self.main_window.set_page(page, "Таблица эквивалентных")
 
 class LinearAlgebraPage(QWidget):
     def __init__(self, main_window):
