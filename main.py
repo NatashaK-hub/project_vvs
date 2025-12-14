@@ -16,28 +16,29 @@ class MathAnalysisPage(QWidget):
     def __init__(self, main_window):
         super().__init__()
         self.main_window = main_window
-        self.init_ui()
+        self.init_ui() #метод, где происходит инициализация пользовательского интерфейса
 
     def init_ui(self):
         layout = QVBoxLayout()
 
         # Заголовок
         title = QLabel("Математический анализ")
-        title.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        title_font = QFont()
+        title.setAlignment(Qt.AlignmentFlag.AlignCenter) #выравнивание по центру
+        title_font = QFont() #объект для настройки шрифта
         title_font.setPointSize(20)
-        title_font.setBold(True)
-        title.setFont(title_font)
+        title_font.setBold(True) #полужирный шрифт
+        title.setFont(title_font) #применение настроенного шрифта к заголовку
         layout.addWidget(title)
 
+        #создается компоновщик для кнопок
         buttons_layout = QVBoxLayout()
-        buttons_layout.setSpacing(20)
-        buttons_layout.setContentsMargins(50, 20, 50, 20)
+        buttons_layout.setSpacing(20) #расстояние между элементами 20 пикселей
+        buttons_layout.setContentsMargins(50, 20, 50, 20) #внутренние отступы от краев лейаута
 
         # Первый замечательный предел
         limit1_btn = QPushButton("Первый замечательный предел")
         limit1_btn.setFont(QFont("Arial", 12))
-        limit1_btn.setMinimumHeight(60)
+        limit1_btn.setMinimumHeight(60) #минимальная высота кнопки в пикселях
         limit1_btn.clicked.connect(lambda: self.open_limit_page("Первый замечательный предел"))
         buttons_layout.addWidget(limit1_btn)
 
@@ -67,6 +68,8 @@ class MathAnalysisPage(QWidget):
 
         # Кнопка возврата
         back_btn = QPushButton("← Назад к разделам математики")
+        #.connect - метод привязки функции к сигналу
+        #show_main_page - метод главного окна, который переключает на главную страницу
         back_btn.clicked.connect(self.main_window.show_main_page)
         layout.addWidget(back_btn)
 
@@ -129,7 +132,7 @@ class LimitPage(QWidget):
 
         # Описание
         description_label = QLabel(description)
-        description_label.setWordWrap(True)
+        description_label.setWordWrap(True) #включение переноса слов
         description_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         layout.addWidget(description_label)
 
